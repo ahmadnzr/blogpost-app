@@ -4,7 +4,7 @@ exports.serverError = (err, req, res, next) => {
     error: {
       name: err.name,
       message: err.message,
-      stack: err.stact,
+      stack: err.stack,
     },
   });
 };
